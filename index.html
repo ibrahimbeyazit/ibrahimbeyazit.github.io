@@ -2,22 +2,40 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>iscan.code</title>
+<title>İSCAN.CODE</title>
+
 <style>
 body{
 margin:0;
-background:#111;
+padding:0;
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("bg.jpg.jpeg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
 color:white;
-font-family:Arial;
+font-family:Arial, sans-serif;
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
 text-align:center;
 }
+
 .box{
 width:300px;
 }
+
+h1{
+margin-bottom:30px;
+font-size:28px;
+letter-spacing:2px;
+}
+
 a{
 display:block;
 margin:15px 0;
@@ -26,20 +44,38 @@ text-decoration:none;
 color:white;
 border-radius:8px;
 font-size:18px;
+transition:0.2s;
 }
-.bionluk{background:#0066ff;}
-.tiktok{background:#ff0050;}
+
+a:hover{
+opacity:0.85;
+}
+
+.bionluk{
+background:#0066ff;
+}
+
+.tiktok{
+background:#ff0050;
+}
 </style>
+
 </head>
+
 <body>
+
 <div class="box">
-<h1>iscan.code</h1>
+<h1>İSCAN.CODE</h1>
+
 <a class="bionluk" href="https://bionluk.com/ibrahimbeyazit" target="_blank">
 Bionluk
 </a>
+
 <a class="tiktok" href="https://www.tiktok.com/@iscan.code?is_from_webapp=1&sender_device=pc" target="_blank">
 TikTok
 </a>
+
 </div>
+
 </body>
 </html>
