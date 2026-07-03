@@ -1,80 +1,105 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<title>İSCAN.CODE</title>
+    <meta charset="UTF-8">
+    <title>İSCAN.CODE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px 0;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("background.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .box {
+            width: 320px;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
 
-<style>
-body{
-margin:0;
-padding:0;
-height:100vh;
+        /* Hakkımda Alanı Tasarımı */
+        .about-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(5px);
+            padding: 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
 
-background:
-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-url("background.jpeg");
+        .about-card h2 {
+            margin: 0 0 10px 0;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #fff;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 5px;
+        }
+        
+        a {
+            display: block;
+            margin: 12px 0;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        
+        a:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
 
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
-color:white;
-font-family:Arial, sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-}
-
-.box{
-width:300px;
-}
-
-h1{
-margin-bottom:30px;
-font-size:28px;
-letter-spacing:2px;
-}
-
-a{
-display:block;
-margin:15px 0;
-padding:15px;
-text-decoration:none;
-color:white;
-border-radius:8px;
-font-size:18px;
-transition:0.2s;
-}
-
-a:hover{
-opacity:0.85;
-}
-
-.bionluk{
-background:#0066ff;
-}
-
-.tiktok{
-background:#ff0050;
-}
-</style>
-
+        /* Buton Renkleri */
+        .instagram {
+            background: #e1306c;
+        }
+        
+        .bionluk {
+            background: #0066ff;
+        }
+        
+        .tiktok {
+            background: #ff0050;
+        }
+    </style>
 </head>
-
 <body>
 
 <div class="box">
-<h1>İSCAN.CODE</h1>
+    <h1>İSCAN.CODE</h1>
+    
+    <!-- Güncellenmiş Gerçekçi Hakkımda Kısmı -->
+    <div class="about-card">
+        <h2>Hakkımda</h2>
+        Bilgisayar Programcılığı mezunuyum. C#, Python, SQL, HTML ve CSS kullanarak otomasyon yazılımları,Kişiye veya kuruma özel Web siteleri yani projeler geliştiriyorum. Aynı zamanda Adobe Photoshop ve Canva ile profesyonel logo tasarımları ve kurumsal kimlik çalışmaları hazırlıyorum. "iscan.code" markam altında hem yazılım/tasarım süreçlerimi paylaşıyor hem de freelance olarak hizmet sunuyorum. 
+      -AKLINIZDA NE VARSA YANINIZDA BEN VARIM "Hayal gücünü piksellere, mantığı kodlara döküyorum."-
+    </div>
 
-<a class="bionluk" href="https://bionluk.com/ibrahimbeyazit" target="_blank">
-Bionluk
-</a>
-
-<a class="tiktok" href="https://www.tiktok.com/@iscan.code?is_from_webapp=1&sender_device=pc" target="_blank">
-TikTok
-</a>
-
+    <!-- Bağlantı Butonları -->
+    <a class="instagram" href="https://www.instagram.com/iscan.code" target="_blank">Instagram</a>
+    <a class="bionluk" href="https://bionluk.com/ibrahimbeyazit" target="_blank">Bionluk</a>
+    <a class="tiktok" href="https://www.tiktok.com/@iscan.code?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
 </div>
 
 </body>
